@@ -3,15 +3,17 @@ import Head from "next/head"
 import { useSettings } from "@/context/settings"
 import { fetchAsset } from "@/utils/fetchAsset"
 
+const DEFAULT_TITLE = "home"
+
 const Meta = () => {
-	const [title, setTitle] = useState("Start Page")
+	const [title, setTitle] = useState(DEFAULT_TITLE)
 	const [iconType, setIconType] = useState("na")
 	const [icon, setIcon] = useState(null)
 	const { settings } = useSettings()
 
 	useEffect(() => {
-		// Set title
-		setTitle(settings.username + " Start Page")
+		// // Set title
+		// setTitle(settings.username + " Start Page")
 
 		// Return if there is no icon
 		if (!settings.fetch.image) return
