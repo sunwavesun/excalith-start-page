@@ -168,7 +168,7 @@
 						"icon": "mdi:youtube"
 					},
 					{
-						"name": "youtube music",
+						"name": "music",
 						"url": "https://music.youtube.com/",
 						"icon": "simple-icons:youtubemusic"
 					},
@@ -181,6 +181,72 @@
 						"name": "instagram",
 						"url": "https://instagram.com/",
 						"icon": "mdi:instagram"
+					}
+				]
+			},
+			{
+				"title": "study",
+				"color": "red",
+				"align": "left",
+				"links": [
+					{
+						"name": "plan",
+						"url": "https://www.notion.so/Career-e970db70e98d446fbce1e90c9e9e8f44",
+						"icon": "simple-icons:notion"
+					},
+					{
+						"name": "distributed system",
+						"url": "https://pdos.csail.mit.edu/6.824/schedule.html",
+						"icon": "mdi:server"
+					},
+					{
+						"name": "neetcode",
+						"url": "https://neetcode.io/",
+						"icon": "material-symbols-light:code"
+					},
+					{
+						"name": "system design primer",
+						"url": "https://github.com/donnemartin/system-design-primer",
+						"icon": "ion:server-outline"
+					}
+				]
+			},
+			{
+				"title": "music",
+				"color": "yellow",
+				"align": "left",
+				"links": [
+					{
+						"name": "laputa",
+						"url": "https://www.youtube.com/watch?v=rL30Fdprnzo",
+						"icon": "mdi-light:music"
+					},
+					{
+						"name": "nujabes",
+						"url": "https://www.youtube.com/watch?v=z3aS5AwhJSU",
+						"icon": "mdi-light:music"
+					},
+					{
+						"name": "sakamoto ryuichi",
+						"url": "https://www.youtube.com/watch?v=GTMcaAKXxAY",
+						"icon": "mdi-light:music"
+					},
+					{
+						"name": "qt",
+						"url": "https://www.youtube.com/watch?v=Bm4zzJPefv8",
+						"icon": "mdi-light:music"
+					}
+				]
+			},
+			{
+				"title": "🌊",
+				"color": "blue",
+				"align": "left",
+				"links": [
+					{
+						"name": "chim",
+						"url": "https://www.youtube.com/@ChimChakMan_Official",
+						"icon": "mdi:youtube"
 					}
 				]
 			}
